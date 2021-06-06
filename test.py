@@ -9,6 +9,9 @@ class TestCase(unittest.TestCase):
     def test_sub_l(self):
         self.assertEqual(example.sub(1, 1), 0)
 
+    def test_mul_l(self):
+        self.assertEqual(example.mul(1, 2), 2)
+
 
 if __name__ == '__main__':
     unittest.main()
